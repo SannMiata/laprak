@@ -1,0 +1,81 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "lpUKoV6tznfW",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "10b5f8e7-b086-41a8-b96d-83266775d703"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "DATA DIRI MAHASISWA\n",
+            "Nama           : Muhammad Ichsan\n",
+            "NIM            : 2605060027\n",
+            "Tempat/Tgl Lahir: Magelang, 14 Juni 2007\n",
+            "Alamat         : Pakis Kidul RT 05 RW 02, Kec. Pakis, Kab. Magelang\n",
+            "Jenis Kelamin  : Laki-laki\n",
+            "Hobi           : Angkat beban, catur , dan combat sport\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Menyimpan nama ke dalam variabel\n",
+        "nama = \"Muhammad Ichsan\"\n",
+        "\n",
+        "# Menyimpan NIM ke dalam variabel\n",
+        "nim = \"2605060027\"\n",
+        "\n",
+        "# Menyimpan tempat dan tanggal lahir\n",
+        "ttl = \"Magelang, 14 Juni 2007\"\n",
+        "\n",
+        "# Menyimpan alamat\n",
+        "alamat = \"Pakis Kidul RT 05 RW 02, Kec. Pakis, Kab. Magelang\"\n",
+        "\n",
+        "# Menyimpan jenis kelamin\n",
+        "jenis_kelamin = \"Laki-laki\"\n",
+        "\n",
+        "# Menyimpan hobi\n",
+        "hobi = \"Angkat beban, catur , dan combat sport\"\n",
+        "\n",
+        "# Menampilkan judul program\n",
+        "print(\"DATA DIRI MAHASISWA\")\n",
+        "\n",
+        "# Menampilkan data menggunakan f-string\n",
+        "print(f\"Nama           : {nama}\")\n",
+        "print(f\"NIM            : {nim}\")\n",
+        "print(f\"Tempat/Tgl Lahir: {ttl}\")\n",
+        "print(f\"Alamat         : {alamat}\")\n",
+        "print(f\"Jenis Kelamin  : {jenis_kelamin}\")\n",
+        "print(f\"Hobi           : {hobi}\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "RieQABs60Khw"
+      }
+    }
+  ]
+}
