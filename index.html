@@ -432,7 +432,7 @@
         <div>
 
             <h2>
-                📚 Repository Tugas
+                 Repository Tugas
             </h2>
 
             <p>
@@ -465,7 +465,7 @@
 
 
     <h2 class="section-title">
-        📁 Daftar Tugas
+         Daftar Tugas
     </h2>
 
 
@@ -684,7 +684,7 @@ async function loadFiles() {
         console.error(error);
 
         status.innerHTML =
-            "❌ Gagal mengambil tugas dari GitHub.";
+            " Gagal mengambil tugas dari GitHub.";
 
     }
 
@@ -696,17 +696,17 @@ async function loadFiles() {
 function getIcon(filename) {
 
     if (filename.endsWith(".py")) {
-        return "🐍";
+        return "py";
     }
 
     if (
         filename.endsWith(".ipynb") ||
         filename.endsWith(".ipynb.txt")
     ) {
-        return "📓";
+        return "ipynb";
     }
 
-    return "📄";
+    return "txt";
 }
 
 
@@ -798,7 +798,7 @@ async function showCode(url, filename) {
         console.error(error);
 
         code.textContent =
-            "❌ Gagal mengambil isi file.";
+            " Gagal mengambil isi file.";
 
     }
 
