@@ -1,3 +1,65 @@
+# Literal Data
+
+# 2.1
+# Menampilkan teks ke konsol
+print("Hello World")
+
+# Membuat variabel
+a = 10
+x = 5
+panjang = 1000
+
+# Menampilkan nilai variabel
+print("Nilai a =", a)
+print("Nilai x =", x)
+print("Nilai panjang =", panjang)
+
+
+# 2.2
+# Integer: bilangan bulat
+data_integer = 1
+print("Data:", data_integer)
+print("Tipe:", type(data_integer))
+
+# Float: bilangan desimal
+data_float = 1.5
+print("Data:", data_float)
+print("Tipe:", type(data_float))
+
+# String: kumpulan karakter
+data_string = "ucup"
+print("Data:", data_string)
+print("Tipe:", type(data_string))
+
+# Boolean: True atau False
+data_bool = True
+print("Data:", data_bool)
+print("Tipe:", type(data_bool))
+
+# Complex: bilangan kompleks
+data_complex = complex(5, 6)
+print("Data:", data_complex)
+print("Tipe:", type(data_complex))
+
+# 2.3
+# Contoh penamaan variabel
+nilai_y = 15
+juta10 = 10000000
+nilaiZ = 17.5
+
+# Membuat variabel
+a = 10
+print("Nilai a =", a)
+
+# Mengubah nilai variabel
+a = 7
+print("Nilai a =", a)
+
+# Assignment tidak langsung
+b = a
+print("Nilai b =", b)
+
+
 # TUGAS NOMOR 1
 nama = "Muhammad Ichsan"     # nama → string
 umur = 19                     # umur → integer
