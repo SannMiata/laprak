@@ -17,10 +17,12 @@ data_buku = {}
 
 while True:
     # os.system("cls") # Untuk WIN
-     s.system("clear") # Untuk LIN/MAC
+    system("clear") # Untuk LIN/MAC
+    
 # Judul input
     print(f"{'SELAMAT DATANG DI E-PERPUS':^20}")
-    print(f"{'DATA PERPUSTAKAAN':^20}")
+    print(f"{'DATA BUKU':^20}")
+
 
 # Input data buku
     buku['judul'] = input("Masukkan Judul Buku: ")
@@ -41,15 +43,16 @@ while True:
 
 
 # Menampilkan data ke dalam tabel
-    print(f"\n{'KEY':<8} {'Judul':<20} {'Penulis':<17} {'Tahun':<6} {'Terakhir Pinjam':<16} {'Status':<9}")
+    print(f"\n{'KEY':<8} {'Judul':<20} {'Penulis':<17} {'Terbit':<6} {'Terakhir Pinjam':<16} {'Status':<9}")
     print('-' * 80)
+
     for KEY in data_buku:
-        JUDUL = data_buku[KEY]['judul']
+        BUKU = data_buku[KEY]['judul']
         PENULIS = data_buku[KEY]['penulis']
-        TAHUN = data_buku[KEY]['tahun']
-        PINJAM = data_buku[KEY]['tanggal_pinjam'].strftime("%x")
+        TERBIT = data_buku[KEY]['tahun']
+        TERAKHIR = data_buku[KEY]['tanggal_pinjam'].strftime("%x")
         STATUS = data_buku[KEY]['status']
-        print(f"{KEY:<8} {JUDUL:<20} {PENULIS:<17} {TAHUN:<6} {PINJAM:<16} {STATUS:<9}")
+        print(f"{KEY:<8} {BUKU:<20} {PENULIS:<17} {TERBIT:<6} {TERAKHIR:<16} {STATUS:<9}")
 
 # Konfirmasi pengguna
     print("\n")
